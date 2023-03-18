@@ -1,0 +1,19 @@
+name: 'mdbook extention'
+author: 'shenjackyuanjie'
+inputs:
+  extention:
+    description: 'List of mdbook extensions to install'
+    required: true
+    default: []
+    type: array
+    items:
+      type: string
+  version:
+    description: 'List of versions for each extension'
+    required: true
+    default: []
+    type: array
+    items:
+      type: string
+runs:
+    
